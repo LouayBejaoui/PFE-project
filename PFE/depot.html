@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles_depot.css">
+
+    <title>Depot</title>
+  </head>
+  <body>
+    <h3>Fiche de depot d'envoi de publipostage</h3>
+<form class="" action="insert_depot.php" method="post">
+
+  <div class="lign">
+    <h5>Administration postale régionale à :</h5>
+    <input type="text" name="admin_post_reg" value="">
+  </div>
+  <div class="lign">
+    <h5>Bureau de poste :</h5>
+    <input type="text" name="bureau_de_poste" value="">
+  </div>
+
+  <div class="lign">
+<h5>N° de reçu :</h5>
+<input type="text" name="recu" value="">
+<h5>de :</h5>
+<input type="date" name="date_reçu" value="">
+  </div>
+
+  <div class="lign">
+<h5>N° d'autorisation : </h5>
+<input type="text" name="num_autorisation" value="">
+<h5>en date du :</h5>
+<input type="date" name="date_autorisation" value="">
+  </div>
+
+  <div class="lign">
+<h5>Date de depôt :</h5>
+<input type="date" name="date_depot" value="">
+  </div>
+
+  <div class="lign">
+    <h5>Client :</h5>
+      <input type="text" name="client" value="">
+  </div>
+
+  <div class="lign">
+<h5>Adresse :</h5>
+<input type="text" name="adresse" value="">
+  </div>
+  <h5>Type d'envoi : </h5>
+    <label ><h5>Publipostage adressé</h5></label>
+    <input type="checkbox" name="pubad" value="0" id="pubad">
+
+<label ><h5>Publipostage sans adresse</h5></label>
+
+<input type="checkbox" name="pubad" value="1" id="pubsad">
+
+<div class="lign">
+  <h5>Poids de l'envoi :</h5>
+  <input type="text" name="poids_envoi" value="">
+  <h5>Kg</h5>
+</div>
+<div class="lign">
+  <h5>Prix unitaire :</h5>
+  <input type="text" name="prixunit" value="">
+  <h5>DT</h5>
+</div>
+
+
+<div class="lign">
+  <h5>Mantant total :</h5>
+  <input type="text" name="montant_total" value="">
+  <h5>DT</h5>
+
+</div>
+
+<div class="lign">
+  <h5>Taut de remise :</h5>
+  <input type="text" name="taut_remise" value="">
+  <h5>%</h5>
+
+</div>
+
+<div class="lign">
+  <h5>Montant de la remise :</h5>
+  <input type="text" name="montant_remise" value="">
+  <h5>DT</h5>
+
+</div>
+
+<div class="lign">
+  <h5>Net à payer :</h5>
+  <input type="text" name="net" value="">
+  <h5>DT</h5>
+
+</div>
+<button type="submit" name="button" class="btn btn-dark butn btn-lg" id="myButton">Submit</button>
+</form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body{
+  background-image: url('back1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.backgr{
+  background: rgb(144,143,147);
+  background: linear-gradient(0deg, rgba(144,143,147,1) 0%, rgba(209,218,227,1) 61%);  width: 400px;
+  height: auto;
+  padding: 25px 100px 40px 100px ;
+  margin: auto;
+  margin-top: 15%;
+  border-radius: 40px;
+}
+.cont{
+  margin-top: 10px;
+}
+.btn{
+  margin-top: 25px;
+  margin-left: 25%;
+
+}
+
+h5{
+  padding-top:10px;
+  color: #282846;
+}
+.logo{
+  border-radius: 100%;
+  margin-left: 30px;
+  margin-top: 10px;
+}

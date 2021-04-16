@@ -1,0 +1,25 @@
+h3{
+  margin-left: 30%;
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+h5,input{
+  display: inline-block;
+  margin-left: 10px;
+}
+form{
+  margin-top: 150px;
+  margin-left: 25%;
+}
+.lign{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn{
+margin: 80px 0 50px 300px
+}
+body{
+  background-image: url('brushed.png');
+  background-size: cover;
+  background-attachment: fixed;
+}

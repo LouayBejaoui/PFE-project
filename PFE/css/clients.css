@@ -1,0 +1,38 @@
+body{
+  background-image: url('brushed.png');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+
+}
+.head{
+  margin-top: 30px;
+  height: auto;
+  background-color: #10155F;
+}
+.logo{
+  border-radius: 100%;
+  margin-left: 100px;
+  display: inline-block;
+
+}
+.bt{
+  float: right;
+  margin: 15px 7px 0 7px;
+}
+table{
+  margin-top: 50px;
+}
+.remove{
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  background-color: #ce1212;
+  color: white;
+  border-radius: 15px;;
+  border: none;
+
+}
+table, th, td {
+  border: 1px solid black;
+}
